@@ -65,9 +65,15 @@ body{
     right: 10px;
 }
 
+.savedArticlesBtn{
+    bottom:5px;
+    right:10px;
+    position: absolute;
+}
 a.btn-danger, a.btn-success{
     color:#ffffff !important;
 }
+
 .page-footer{
     text-align: center;
     border-top:1px dotted #ccc;

@@ -8,10 +8,12 @@
     <div class="col-sm-12" style="margin-bottom:10px">
         <div class="card">
             <div class="card-body">
-                <p class="card-text">{{title}}</p>
-                <a href="{{link}}" class="btn btn-default">Learn more...</a>
+                <p class="card-text">{{title}}
+                <a href="{{link}}" class="btn btn-default">Learn more...</a></p>
+                <div class="savedArticlesBtn">
                 <a class="addNoteBtn btn btn-success articleNotes" data-id={{_id}}>Article Notes</a>
                 <a class="deleteBtn btn btn-danger" data-id={{_id}}>DELETE from Saved</a>
+                </div>
             </div>
         </div>
     </div>

@@ -71,6 +71,8 @@ $('#myModal, .saveNotes').on('hidden.bs.modal', function () {
              <div class="card-body"><p class="card-text">${dbNote.title} <br>${dbNote.body}</p>
              <a class="deleteNoteBtn btn btn-danger" data-noteid=${dbNote._id} href="">X</a></div></div>`;
              $('.notesCard').prepend(innerContent);
+             $('#note-title').val('');
+             $('#note-body').val('');
      })
   });
 
