@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#headerImg{
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index:-3;
+    position: relative;
+}
+
+#fadedbg{
+    width: 100%;
+    background-color: #333333;
+    top:0px;
+    right:0px;
+    position: absolute;
+    z-index:-1;
+    height: 100%;
+    opacity: 0.7;
+}
+.container-fluid{
+    padding: 0;
+}
+.card-body{
+    position: relative;
+}
+.saveArticleBtn{
+    position: absolute;
+    right:10px;
+    bottom:5px;
+}
+.navbar{
+   position: sticky;
+   top:0px; 
+}
+
+#headerContent{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index:-2;
+}
+
+#headerContent p{
+    color:#ffffff;
+    font-size: 4rem;
+    text-shadow: 2px 2px 8px #ccc;
+    margin-top: 150px;
+}
+.container{
+    min-height: 200px;
+}
+.notesCard .card{
+    position: relative;
+}
+.deleteNoteBtn{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+a.btn-danger, a.btn-success{
+    color:#ffffff !important;
+}
+.page-footer{
+    text-align: center;
+    border-top:1px dotted #ccc;
+    margin-top: 10px;
+}

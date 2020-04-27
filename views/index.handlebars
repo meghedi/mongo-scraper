@@ -1,0 +1,19 @@
+<div class="row" style="margin-top: 20px;" id="scrapedArticles">
+    {{#unless articles}}
+    <p id="noScraped">
+        <h3>No Articles scraped Yet! </h3>
+    </p>
+    {{/unless}}
+    {{#each articles}}
+    <div class="col-sm-12" style="margin-bottom:10px">
+        <div class="card">
+            <div class="card-body">
+                <p class="card-text">{{title}}</p>
+                <a href="{{link}}" class="btn btn-default">Learn more...</a>
+                <a class="saveArticleBtn btn btn-success" data-articleid={{_id}} href="">Save Article</a>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+
+</div>
